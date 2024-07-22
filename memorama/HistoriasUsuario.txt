@@ -1,0 +1,8 @@
+Historia de Usuario 01:
+Titulo: Como jugador, quiero poder ver un tablero con 10 pares de números aleatorios.
+Resumen: El tablero debe mostrar 10 cartas, cada una con un número aleatorio del 1 al 10.
+
+Criterios de aceptación:
+1. El tablero debe tener 10 cartas.
+2. Cada carta debe mostrar un numero aleatorio del 1 al 10.
+3. Los números en las cartas deben ser aleatorios y no deben repetirse.
