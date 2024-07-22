@@ -32,3 +32,28 @@ h1{
     background-color: rgb(193, 131, 251);
     cursor: pointer;
 }
+/* Media Queries para responsividad */
+
+@media (max-width: 1024px) {
+    .grid-contenedor {
+        grid-template-columns: repeat(4, 100px);
+    }
+}
+
+@media (max-width: 768px) {
+    .grid-contenedor {
+        grid-template-columns: repeat(3, 100px);
+    }
+}
+
+@media (max-width: 480px) {
+    .grid-contenedor {
+        grid-template-columns: repeat(2, 100px);
+    }
+}
+
+@media (max-width: 320px) {
+    .grid-contenedor {
+        grid-template-columns: 1fr;
+    }
+}
